@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+body .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.form-structure{
+    padding: 20px 20px;
+    display: grid;
+    align-items: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    height: 450px;
+    width: 480px;
+    box-shadow: inset 1px 1px 20px 5px #010101;
+    border-radius: 20px;
+    transition: 0.8s ease;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: royalblue;
+}
+label{
+    font-weight: 600;
+    color: royalblue;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.form-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 5px;
+    width: 200px;
+    color: royalblue;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: dotted royalblue;
+    transition: 1s ease;
+}
+.form-structure:hover{
+    transform: scale(1.05);
+}
+button:hover{
+    background-color: royalblue;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+#mailto{
+    display: none;
+}
